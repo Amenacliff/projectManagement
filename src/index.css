@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: 'Jost', sans-serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body::-webkit-scrollbar{
+  width: 10px;
+  background-color: #196f3D;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color:dodgerblue;
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-track{
+   box-shadow: inset 0 0 6px rgba(0,0,0,0,0.3);
+   background-color:#ccc;
+   border-radius: 20px;
+
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

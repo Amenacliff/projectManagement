@@ -1,0 +1,111 @@
+@media screen and (min-width:769px){
+    .main-div{
+        background-color: rgb(4, 1, 32);
+        width: 300px;
+        border-radius: 20px;
+        height: 625px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    .projectLists{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        overflow-y: scroll;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .main-div{
+        background-color: rgb(4, 1, 32);
+        width: 300px;
+        border-radius: 20px;
+        height: 400px;
+        overflow-y: hidden;
+        /* margin-top: 30px;
+        margin-left: 40px; */
+        margin:auto;
+        margin-bottom: 20px;
+        position: relative;
+        z-index: 1;
+    }
+    .projectLists{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        height: 300px;
+    }
+}
+
+.projectLists::-webkit-scrollbar{
+    width: 10px;
+    background-color: #196f3D;
+    border-radius: 10px;
+}
+
+.projectLists::-webkit-scrollbar-thumb{
+    background-color:dodgerblue;
+    border-radius: 20px;
+}
+
+.projectLists::-webkit-scrollbar-track{
+     box-shadow: inset 0 0 6px rgba(0,0,0,0,0.3);
+     border-radius: 20px;
+     background-color: rgb(4, 1, 32);
+
+}
+
+.main-div h4{
+    color:  white;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding-top: 20px;
+}
+
+.projectLists{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.projectList{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.projectList h5{
+   color: white;
+   font-size: 18px;
+   margin-left: 20px;
+   margin-top: -8px;
+   font-weight: 100;
+   text-align: left;
+}
+
+.normal-style{
+    width:10px;
+    height:10px;
+    background-color:dodgerblue;
+    border-radius:100%
+}
+
+.urgent-style{
+    width:10px;
+    height:10px;
+    background-color:red;
+    border-radius:100%
+}
+
+
+.np-style{
+    width:10px;
+    height:10px;
+    background-color:green;
+    border-radius:100%
+}
