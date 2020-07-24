@@ -202,7 +202,7 @@ const  ProjectLayout = ({setProject, setProjectArray, setNewArray })=> {
         { showModal ? 
                 <div className='add-project-modal'>
                     <h4 style={{fontSize:'20px', marginTop:'10px'}}>Add a Project </h4>
-                    <div  onClick={()=>toogleCloseModal()} style={{background:'rgb(236, 77, 77)', width:'30px', height:'30px', textAlign:"center", marginLeft:'360px', borderRadius:'50px', marginTop:'-55px'}}>
+                    <div  onClick={()=>toogleCloseModal()} style={{background:'rgb(236, 77, 77)', width:'30px', height:'30px', textAlign:"center", marginLeft:'5vw', borderRadius:'50px', marginTop:'-55px'}}>
                         <p style={{textAlign:'center', color:'white', marginLeft:'0px', paddingTop:'3px'}}>X</p>
                     </div>
                     <p>Project Name</p>
@@ -245,7 +245,7 @@ const  ProjectLayout = ({setProject, setProjectArray, setNewArray })=> {
 
             {
                 showEditDeleteModal ? <div className='edit-project-modal'>
-                    <div  onClick={()=>setshowEditDeleteModal(false)} style={{background:'rgb(236, 77, 77)', width:'30px', height:'30px', textAlign:"center", marginLeft:'360px', borderRadius:'50px', marginTop:'0px'}}>
+                    <div  onClick={()=>setshowEditDeleteModal(false)} style={{background:'rgb(236, 77, 77)', width:'30px', height:'30px', textAlign:"center", marginLeft:'10vw', borderRadius:'50px', marginTop:'0px'}}>
                         <p style={{textAlign:'center', color:'white', marginLeft:'0px', paddingTop:'3px'}}>X</p>
                     </div>
                     <input onChange={(event)=>handleEditModal({

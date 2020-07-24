@@ -92,13 +92,29 @@
         text-align: left;
         margin-left: 20px;
     }
+
+    
+.input-projectName{
+    margin-top: 5px;
+    width:300px;
+    height: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    border:none;
+    border-radius: 5px;
+    margin-left: -50px;
+    font-family: 'Jost', sans-serif;
+}
+
+.input-projectName:focus{
+    outline:none !important
+}
     
 }
 @media screen and (max-width:768px){
     .add-project-modal{
         position: absolute;
         background-color: white;
-        width: 80vw;
+        width: 90vw;
         left:5vw;
         top:100vh;
         bottom: 10px;
@@ -117,7 +133,7 @@
     .edit-project-modal{
         position: absolute;
         background-color: white;
-        width: 80vw;
+        width: 90vw;
         left:5vw;
         top:100vh;
         bottom: 10px;
@@ -133,6 +149,21 @@
         text-align: left;
         margin-left: 20px;
     }
+
+    .input-projectName{
+        margin-top: 5px;
+        width:50%;
+        height: 30px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+        border:none;
+        border-radius: 5px;
+        margin-left: -50px;
+        font-family: 'Jost', sans-serif;
+    }
+    
+    .input-projectName:focus{
+        outline:none !important
+    }
     
 }
 
@@ -143,20 +174,6 @@
     color: rgba(168, 164, 164, 0.8);
 }
 
-.input-projectName{
-    margin-top: 5px;
-    width:300px;
-    height: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    border:none;
-    border-radius: 5px;
-    margin-left: -50px;
-    font-family: 'Jost', sans-serif;
-}
-
-.input-projectName:focus{
-    outline:none !important
-}
 
 
 .add-project-button{
